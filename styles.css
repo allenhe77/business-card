@@ -1,0 +1,394 @@
+/*  variables  STARTS------------------------------------*/
+
+
+
+/*  variables  ENDS--------------------------------*/
+
+/*  main body  STARTS------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/*  navbar  ENDS--------------------------------*/
+
+.menu-icon {
+    width: 21.88px;
+    width: 21.88px;
+    align-self: flex-end;
+}
+
+/*  navbar  ENDS--------------------------------*/
+
+/*  hero section  STARTS------------------------------------*/
+
+.profile-picture {
+    width: 283px;
+    height: 193px;
+    align-self: center;
+}
+
+.divide-line {
+    border: 1px solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2.6875rem;
+    width: 20.0625rem;
+}
+
+.profile-name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.profile-profession {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+/*  hero section  ENDS--------------------------------*/
+
+.arrow-down {
+    width: 57px;
+    height: 62px;
+    margin-top: 5rem;
+    align-self: center;
+}
+
+/*  service section  STARTS------------------------------------*/
+
+.service-section {
+    background: #EEEEEE;
+}
+
+.service-desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.56);
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+}
+
+.service {
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+
+.service-category1,.service-category2,.service-category3 {
+
+    width: 305px;
+    height: 172px;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.service-category1::before,.service-category2::before,.service-category3::before {
+    content: "";
+
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+
+}
+
+.service-category1::before{
+    background: url('assets/service pic web.png');
+}
+
+.service-category2::before{
+    background: url('assets/service-design-pic.png');
+}
+.service-category3::before{
+    background: url('assets/service-audit-pic.png');
+}
+
+
+
+
+.service-category1-text,.service-category2-text,.service-category3-text {
+    text-align: center;
+    font-family: Inter;
+    font-size: 27px;
+    text-transform: capitalize;
+
+}
+
+.services-list:last-child{
+    margin-bottom: 4.5rem;
+}
+
+
+/*  service section  ENDS--------------------------------*/
+
+
+/*  experience section  STARTS------------------------------------*/
+
+.experience-body{
+    margin-left: 3.875rem;
+}
+.experience-body-position{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.93);
+    text-transform: uppercase;
+    margin-top: 6.375rem;
+}
+
+.experience-body-company{
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.86);
+    margin-top: 1.5rem;
+}
+
+.experience-body-timeline{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 1.5625rem;
+}
+
+.experience-body-details{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.94);
+    margin-top: 3.75rem;
+}
+
+/*  experience section  ENDS--------------------------------*/
+
+
+
+/*  education section  STARTS------------------------------------*/
+
+.education-section{
+    margin-top: 6.625rem;
+}
+
+.education-body{
+    margin-left: 3.875rem;
+}
+.education-body-degree{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.93);
+    text-transform: uppercase;
+    margin-top: 6.375rem;
+}
+
+.education-body-university{
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.86);
+    margin-top: 1.5rem;
+}
+
+.education-body-timeline{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 1.5625rem;
+}
+
+.education-body-details{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.94);
+    margin-top: 3.75rem;
+}
+
+.education-body:last-child{
+    margin-bottom: 9.3125rem;
+}
+
+/*  education section  ENDS--------------------------------*/
+
+/*  portfolio section  STARTS------------------------------------*/
+
+.portfolio-section{
+    background: #EEEEEE;
+
+}
+
+.portfolio-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.work-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.46);
+}
+
+.work-image{
+    align-self: center;
+}
+
+.work-title:first-child{
+    margin-top: 2.88625rem;
+}
+
+.portfolio-body:last-child{
+
+    margin-bottom: 9.3125rem;
+
+}
+
+/*  portfolio section  ENDS--------------------------------*/
+
+
+/*  contact section  STARTS------------------------------------*/
+
+.contact-section{}
+
+.contact-name,.contact-email,.contact-message,.contact-send-btn{
+    text-align: left;
+    margin-left: 1.3125rem;
+    margin-right: 1.3125rem;
+    margin-bottom: 2.640625rem;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.4);
+    width: 19.875rem;
+}
+
+.contact-name{
+    border-bottom: 1px solid black;
+    padding-bottom: 1.76875rem;
+}
+
+.contact-email{
+    border-bottom: 1px solid black;
+    padding-bottom: 1.76875rem;
+}
+
+.contact-message{
+    border: 1px solid black;
+    height: 16.25rem;
+}
+
+.contact-send-btn{
+    width: 13.625rem;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1.4375rem 0;
+}
+
+/*  contact section  ENDS--------------------------------*/
+
+
+/*  each category/section text format   STARTS------------------------------------*/
+
+.experience-desc,.services-desc,.education-desc,.portfolio-desc,.contact-desc{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.56);
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    text-wrap: normal;
+    margin-top: 3.0625rem;
+}
+
+.experience,.service,.education,.portfolio,.contact{
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+/*  each category desc format  ENDS--------------------------------*/
+
+/*  main body  ENDS--------------------------------*/
+
